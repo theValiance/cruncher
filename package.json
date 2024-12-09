@@ -1,0 +1,23 @@
+{
+  "name": "cruncher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crunch.js",
+  "type": "module",
+  "scripts": {
+    "crunch": "dotenvx run -f .env -- node crunch.js",
+    "zip": "dotenvx run -f .env -- node zip.js",
+    "train": "python train.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.28.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.4",
+    "objects-to-csv": "^1.3.6",
+    "zod": "^3.23.8"
+  }
+}
